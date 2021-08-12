@@ -1,0 +1,12 @@
+.banner{width: 100%; height: 210px; margin-bottom: 80px;}
+.banner .main_bn{float: left; width: 847px; height: 100%; border-radius: 5px;}
+.main_bn .main_bn_list{position: relative; width: 100%; height: 210px; overflow: hidden;}
+.main_bn .main_bn_list .main_bn_img{position: absolute; width: 100%;}
+.main_bn .main_bn_list .main_bn_img:nth-child(1){left: 0;}
+.main_bn .main_bn_list .main_bn_img:nth-child(2){left: 100%;}
+.main_bn .main_bn_list .main_bn_img:nth-child(3){left: 200%;}
+.main_bn .main_bn_list .main_bn_img:nth-child(4){left: 300%;}
+.banner .main_bn img{border-radius: 5px;}
+
+.banner .sub_bn{float: right; width: 269px; height: 100%;}
+.sub_bn img{border-radius: 5px;}
