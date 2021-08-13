@@ -6,6 +6,7 @@ import LineBanner from './Main/LineBanner.js';
 import BestProduct from './Main/BestProduct.js';
 import Market from './Main/Market.js';
 import RankingClub from './Main/RankingClub.js';
+import Event from './Main/Event.js';
 
 
 class Main extends React.Component {
@@ -24,6 +25,7 @@ class Main extends React.Component {
             <BestProduct></BestProduct>
             <Market></Market>
             <RankingClub></RankingClub>
+            <Event></Event>
         </div>
     }
 }

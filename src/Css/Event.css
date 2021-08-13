@@ -1,0 +1,6 @@
+.event_wrap .event{display: flex;}
+.event_wrap .event .event_box{margin-right: 20px;}
+.event_wrap .event .event_box:last-child{margin-right: 0;}
+.event_wrap .event .event_box img{border-radius: 5px;}
+.event_wrap .event .event_box .date{display: block; font-size: 13px; letter-spacing: -1px; color: #999999; margin: 10px 0 5px;}
+.event_wrap .event .event_box .event_tit{font-size: 15px; font-weight: bold; letter-spacing: -1px;}
