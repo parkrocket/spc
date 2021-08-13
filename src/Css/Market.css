@@ -1,0 +1,14 @@
+
+#contents .market_wrap{width: 100%; height: auto; margin: 0 auto 80px;}
+.market_item_wrap .market_item{display: flex; width: 100%;}
+.market_item .item_box{width: 210px; margin-right: 22px;}
+.market_item .item_box:last-child{margin-right: 0%;}
+.market_item .item_box a{display: block;}
+.market_item .item_box a img{border-radius: 5px;}
+
+.market_item .item_box a .area{font-size: 11px; color: #999999;}
+.market_item .item_box a .product{width: 100%; font-size: 13px; letter-spacing: -1px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.market_item .item_box .price{font-size: 18px; font-weight: bold; margin-bottom: 15px;}
+.market_item .item_box .price .sell{display: inline; color: #f3213b;}
+.market_item .item_box .price>p{display: inline-block;}
+.market_item .item_box .tag{display: inline-block; padding: 6px 10px; background: #f1f5fb; border-radius: 12px; font-size: 12px; letter-spacing: -1px;}

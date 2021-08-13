@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Css/Banner.css';
-import main_bn01 from '../img/main_bn01.jpg';
-import sub_bn01 from '../img/sub_bn01.jpg';
+import '../../Css/Banner.css';
+import main_bn01 from '../../img/main_bn01.jpg';
+import sub_bn01 from '../../img/sub_bn01.jpg';
 import $ from "jquery";
 
 class Banner extends React.Component {
@@ -26,6 +26,7 @@ class Banner extends React.Component {
 
             current01++;
             if (current01 === banner.size) { current01 = 0; };
+
 
             var next01 = banner.eq(current01);
             move01(next01, "100%", 0);

@@ -9,7 +9,9 @@ class App extends React.Component {
   render() {
     return <div id="wrap">
       <Header></Header>
-      <section id="contents"><Main></Main></section>
+      <section id="contents">
+        <Main></Main>
+      </section>
       <Footer></Footer>
     </div>
   }

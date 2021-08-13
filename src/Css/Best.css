@@ -1,0 +1,16 @@
+
+#contents .best_talk_wrap{width: 100%;  margin: 0 auto 80px;}
+
+.best_talk ul{display: flex; width: 100%;}
+.best_talk ul li{width: 24%; margin-right: 20px;}
+.best_talk ul li:last-child{margin-right: 0%;}
+.best_talk ul li img{width: 100%; border-radius: 5px;}
+.best_talk ul li .tit{width: 100%; font-size: 15px; font-weight: bold; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.best_talk ul li .cont{width: 100%; font-size: 12px; color: #999999; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+.best_talk .notice{display: flex; flex-wrap: wrap; margin-top: 52px;} 
+.best_talk .notice .container{display: flex; flex-direction: column; width: 558px; height: 124px; margin-bottom: 12px;} 
+.best_talk .notice .container:nth-child(2n){margin-left: 20px;}
+.best_talk .notice .container .item a{display: inline-block; font-size: 13px; line-height: 24px;} 
+.best_talk .notice .container .item a>.count{color: #f3213b;} 
+.best_talk .notice .container .item .time{float: right; font-size: 11px; line-height: 24px; color: #999999; cursor: default;} 

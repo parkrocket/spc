@@ -1,0 +1,10 @@
+
+#contents .club_wrap{width: 100%; margin: 0 auto 80px;}
+
+.club .club_ul{display: flex; width: 100%;}
+.club .club_ul .club_box{position: relative; margin: 0 20px 20px 0; border-radius: 5px; }
+.club .club_ul .club_box:last-child{margin-right: 0;}
+.club .club_ul .club_box .num{position: absolute; top: 10px; left: 10px; z-index: 888;}
+.club .club_ul .club_box .img{width: 100%; height: 100%;}
+.club .club_ul .club_box .img_bg{position: absolute; top: 0; left: 0; z-index: 777; display: block; width: 100%; height: 100%; border-radius: 5px; background: linear-gradient(rgb(255, 255, 255,0.1), rgb(0, 0, 0,0.4)); }
+.club .club_ul .club_box .club_tit{position: absolute; bottom: 20px; left: 20px; z-index: 888; width: 229px; font-size: 13px; font-weight: bold; color: #ffffff; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}

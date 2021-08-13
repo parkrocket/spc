@@ -1,6 +1,11 @@
 import React from 'react';
 import '../Css/Main.css';
-import Banner from './Banner.js';
+import Banner from './Main/Banner.js';
+import Best from './Main/Best.js';
+import LineBanner from './Main/LineBanner.js';
+import BestProduct from './Main/BestProduct.js';
+import Market from './Main/Market.js';
+import RankingClub from './Main/RankingClub.js';
 
 
 class Main extends React.Component {
@@ -12,7 +17,14 @@ class Main extends React.Component {
     };
 
     render() {
-        return <Banner></Banner>
+        return <div>
+            <Banner></Banner>
+            <Best></Best>
+            <LineBanner></LineBanner>
+            <BestProduct></BestProduct>
+            <Market></Market>
+            <RankingClub></RankingClub>
+        </div>
     }
 }
 
