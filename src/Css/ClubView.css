@@ -1,0 +1,52 @@
+/* 공통 */
+#contents{width: 1136px; margin: 0 auto;}
+.main_side_wrap{display: flex; width: 1136px; margin: 40px auto 0;}
+.main_side_wrap .main{width: 776px; height: 100%; margin-right: 40px;}
+.main_side_wrap .side_fixed{position: sticky; top: 50px;/*  position: absolute;  */ float:left; width: 320px; }
+/* #contents .side_fixed.on{width: 320px; position: fixed; right: 385px;}  */
+.main_side_wrap .side_fixed.fx{ position:fixed; top:20px; }
+.main .page_num{display: flex; width: 350px; margin: 40px auto 0;} 
+.main .page_num div{width: 26px; height: 26px; font-size: 15px; text-align: center; color: #444444; border-radius: 5px; margin-right: 5px;}
+.main .page_num div.on{background: #0055b8; color: #ffffff;}
+.main .page_num div.arrow{width: 23px; height: 23px; border: 1px solid #eeeeee; border-radius: 50%;}
+.side_fixed .button{display: flex; flex-wrap: wrap;}
+.side_fixed .button .like{width: 48%; height: 40px; background: #f5f5f5; font-size: 14px; color: #444444; margin-right: 4%; border-radius: 5px;}
+.side_fixed .button .link{width: 48%; height: 40px; background: #f5f5f5; font-size: 14px; color: #444444; border-radius: 5px; }
+.side_fixed .pop{margin-top: 20px; padding-top: 20px; border-top: 1px solid #eeeeee;}
+
+
+
+.main .photo{width: 100%; margin-bottom: 60px;}
+
+.main .notice{width: 100%; height:auto;}
+.notice h2{font-size: 18px; font-weight: bold; margin-bottom: 20px;}
+.notice ul{}
+.notice ul li{border: 1px solid #eeeeee; border-radius: 5px; padding: 20px 30px; margin-bottom: 10px;}
+.notice ul li a{font-size: 15px; font-weight: 500;}
+.notice ul li a span{color: #0055b8;}
+
+.main .notice_list{width: 100%;}
+.notice_list ul{margin-top: 52px; border-top: 1px solid #eeeeee;}
+.notice_list ul li{border-bottom: 1px solid #eeeeee; padding: 34px 0;}
+.notice_list ul li a{display: flex; margin-bottom: 24px;}
+.notice_list ul li a .n_text{width: 636px; margin-right: 20px;}
+.notice_list ul li a .n_text .tit{font-size: 18px; font-weight: bold; margin-bottom: 17px;}
+.notice_list ul li a .n_text .cont{
+    display: -webkit-box; overflow: hidden; white-space: normal; text-overflow: ellipsis; text-align: left; word-wrap: break-word; -webkit-line-clamp: 2; -webkit-box-orient: vertical; 
+    font-size: 13px; line-height: 20px; color: #444444;
+}
+.notice_list ul li a .img{display: block; width: 120px; height: 120px; border-radius: 5px;}
+.notice_list ul li a img{border-radius: 5px;}
+.notice_list ul li .info_wrap{display: flex; margin-top: -47px;}
+.notice_list ul li .info_wrap .nick{display: flex;}
+.notice_list ul li .info_wrap .nick img{margin-right: 5px;}
+.notice_list ul li .info_wrap .nick .name{font-size: 13px; font-weight: bold; margin-right: 20px;}
+.notice_list ul li .info_wrap span{font-size: 13px; color: #999999;}
+
+.side_fixed .club_info_box{color: #222222;}
+.club_info_box .club_info{font-size: 14px; margin-bottom: 10px;}
+.club_info_box .club_name{font-size: 18px; font-weight: bold; margin-bottom: 20px;}
+.club_info_box .time{border-top: 1px solid #eeeeee; font-size: 14px; padding: 20px 0;}
+.club_info_box .time:before{content: ' '; display: inline-block; width: 11px; height: 15px; background: url(../img/map_icon.png) no-repeat center center;margin-right: 10px;}
+.club_info_box .time span{font-size: 18px; font-weight: bold;}
+.button .join{width: 100%; height: 48px; background: #0055b8; font-size: 15px; font-weight: bold; color: #ffffff; border-radius: 5px; margin-top: 20px;}

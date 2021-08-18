@@ -14,7 +14,9 @@ class Header extends React.Component {
         super(props);
         this.state = {
             isAuthorized: isAuthorized,
-            mb_id: mb_id
+            mb_id: mb_id,
+            menu: this.props.menu,
+            wrid: this.props.wrid
         }
 
     };
@@ -155,10 +157,26 @@ class Header extends React.Component {
                 $(".more_btn .btn_text").show();
             }
         });
+
+        let menu = this.state.menu;
+        if (menu === undefined) {
+            menu = "home";
+        }
+        $("#menu li").removeClass("active");
+        $("#menu_" + menu).addClass("active");
+
+        let wrid = this.state.wrid;
+
+        if (wrid !== undefined) {
+            $(".header_bg").hide();
+        }
+
+
     }
     render() {
         return <header>
             <TopLineBanner></TopLineBanner>
+
             <div className='header_bg'>
                 <div className='search_bar_wrap'>
                     <div className='weather_box'>
@@ -283,11 +301,11 @@ class Header extends React.Component {
                         <option value='3'>3</option>
                     </select>
                     <ul className='menu'>
-                        <li className='active'><a href='#!'>홈페스티벌</a></li>
-                        <li><a href='#!'>커뮤니티</a></li>
-                        <li><a href='#!'>동호회</a></li>
-                        <li><a href='#!'>중고마켓</a></li>
-                        <li><a href='#!'>가격비교</a></li>
+                        <li id="menu_home"><Link to="/">홈</Link></li>
+                        <li id="menu_board"><Link to="/board">커뮤니티</Link></li>
+                        <li id="menu_club"><Link to="/club">동호회</Link></li>
+                        <li id="menu_market"><Link to="/market">중고마켓</Link></li>
+                        <li id="menu_shop"><Link to="/shop">가격비교</Link></li>
                     </ul>
 
                     <span className='login'>

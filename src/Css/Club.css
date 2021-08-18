@@ -1,0 +1,42 @@
+
+.main_meet{display: flex; justify-content: center;}
+.meet{display: block;}
+.meet .rec_meet{position:relative; width: 1136px; margin-top:40px; margin-bottom:80px;}
+.meet .rec_meet .rec_meet_top .rec_meet_title{ display: inline-block; font-size:20px; font-weight: bold; color:#222; margin-bottom: 20px;}
+.meet .rec_meet .rec_meet_top .arrow_btn{ display: inline-block; position:absolute; right:0;}
+.meet .rec_meet .rec_meet_top .arrow_btn button{width:24px; height:24px; }
+
+.meet .rec_meet .rec_meet_top .arrow_btn .arrow_left1{margin-right:5px;; border:0; background: url(../img/arrow2.png) no-repeat 35% 50%;}
+.meet .rec_meet .rec_meet_top .arrow_btn .arrow_right1{border:0; background: url(../img/arrow3.png) no-repeat 35% 50%;}
+
+.meet .rec_meet .rec_meet_main {list-style:none; padding:0; margin:0;}
+.meet .rec_meet .rec_meet_main .rec_meget_list{display:inline-block; position: relative; border-radius:5px;margin-right:16px; width:269px; height: 270px;}
+.meet .rec_meet .rec_meet_main .rec_meget_list:nth-child(4n){margin-right: 0px;}
+.meet .rec_meet .rec_meet_main .rec_meget_list .rec_meet_list_all{ text-decoration: none;}
+.meet .rec_meet .rec_meet_main .rec_meget_list .rec_meet_list_all .content_wrap{border-radius: 5px; position: absolute;  bottom:0px; left:0; right:0; width:269px; height:145px; background: linear-gradient(transparent, rgba(26, 9, 9, 0.7)); }
+.meet .rec_meet .rec_meet_main .rec_meget_list .rec_meet_list_all .content_title{position: absolute; bottom:15px; left:15px; color:#fff; font-size: 13px; font-weight: bold;}
+
+
+/* 동호회 페이지 주제별 동호회 */
+.meet .subject_meet{display: flex; justify-content: center;}
+.meet .subject_meet .sub_top{position:relative;  width: 1136px;}
+.meet .subject_meet .sub_top .sub_title{font-size:20px; font-weight: bold; margin-bottom: 20px;}
+.meet .subject_meet .sub_top .sub_category {position:relative; list-style:none; padding:0; margin-bottom:20px; }
+.meet .subject_meet .sub_top .sub_category .sub_category_all{display:inline-block; }
+.meet .subject_meet .sub_top .sub_category .sub_category_all a{ display:block; padding:9px 12px 9px; text-decoration: none; border-radius:5px; margin-right:6px; border:1px solid #ddd; color:#222; font-size:14px;}
+.meet .subject_meet .sub_top .sub_category .sub_category_all.on a {background-color:#222; color:#fff;}
+.meet .subject_meet .sub_top .sub_category .sub_category_box{display:inline-block; position:absolute; right:0;}
+/*
+.meet .subject_meet .sub_top .sub_category .sub_category_box .sub_select{border:0; padding-left: 10px; border-radius: 5px; width:75px; height: 40px; font-size:14px; color:#444; outline: none; -webkit-appearance: none;  -moz-appearance: none; appearance: none; background: url(../img/ico_arrow1.png) no-repeat 92% 50%;}
+*/
+.meet .subject_meet .sub_meet_list{width: 1136px;}
+.meet .subject_meet .sub_meet_list .meet_list_ul{list-style: none; padding:0; margin: 0;}
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li{ display: inline-block;; list-style: none; padding:0; margin: 0; margin-right: 16px; margin-bottom:40px;}
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li:nth-child(4n){margin-right: 0px;}
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li .list_a{text-decoration: none;}
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li .list_a .list_img{width: 269px; height:180px; border-radius: 5px;}
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li .list_a .list_txt p{margin-top: 10px; font-size:12px; color:#999;}
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li .list_a .list_txt h1{margin-top:3px; margin-bottom:0px; font-size:15px; font-weight: bold; color:#222;}
+/*
+.meet .subject_meet .sub_meet_list .meet_list_ul .meet_list_li .list_a .list_txt span{padding-left:15px; font-size:12px; color:#222; background: url(../img/ico_arrow1.png) no-repeat 0% 50%;
+    */
