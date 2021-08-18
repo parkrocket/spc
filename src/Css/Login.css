@@ -1,0 +1,21 @@
+/* 로그인 */
+.body_wrap{text-align: center;}
+.body_wrap input::placeholder {font-size:15px; color: #bbb;}
+.body_wrap .logo_title{ margin-bottom:30px; font-size: 20px; font-weight: bold; margin-top: 90px;}
+.body_wrap .input_wrap{ display:inline-block; position: relative; width:360px; box-sizing: border-box; }
+.body_wrap .input_wrap .login_box{ width:100%; padding:0 20px; border:0; border: 1px solid #ddd; border-radius:5px; background-color: white; height: 50px; font-size: 15px; box-sizing: border-box; }
+.body_wrap .input_wrap .box_1{margin-bottom: 10px;}
+.body_wrap .input_wrap .login_btn{width: 100%; height: 50px; border:0; border-radius:5px; background-color:#ddd; font-size: 17px; font-weight: bold; color:white; margin-top:20px;}
+.body_wrap .input_wrap .email_save{font-size:13px;}
+.body_wrap .check_email{ margin-top: 20px; text-align: left;}
+.body_wrap .or{font-size: 13px; color: #bbb; text-align: center; margin: 0 0 30px 0; border-bottom:1px solid #ddd; position: relative; padding:18px;}
+.body_wrap .or .or_2{position: absolute; background-color:white;  padding:0 10px; top:26px; right:43%; z-index: 1000;}
+.body_wrap .social_login p{font-size: 12px; color: #777; text-align: center;}
+.body_wrap .social_login .social{display:block; text-align: center; margin:15px 0; }
+.body_wrap .social_login .social a:nth-child(-n+2){margin-right: 10px;}
+
+.body_wrap .login_banner{text-align: center; margin-bottom: 26px; }
+
+.body_wrap .login_etc{ text-align: center; }
+.body_wrap .login_etc a{font-size: 15px; color: #444; text-decoration: none; }
+.body_wrap .login_etc a:first-child{margin-right: 20px; }

@@ -3,13 +3,20 @@ import $ from "jquery";
 import '../Css/Header.css';
 import search_icon from '../img/search_icon.png';
 import test_img from '../img/test_img.jpg';
+import TopLineBanner from './TopLineBanner';
+import { Link } from 'react-router-dom';
+
 
 class Header extends React.Component {
     constructor(props) {
+        let isAuthorized = sessionStorage.getItem("isAuthorized");
+        let mb_id = sessionStorage.getItem("ss_mb_id");
         super(props);
         this.state = {
-            number: 0
+            isAuthorized: isAuthorized,
+            mb_id: mb_id
         }
+
     };
 
     componentDidMount() {
@@ -148,10 +155,10 @@ class Header extends React.Component {
                 $(".more_btn .btn_text").show();
             }
         });
-
     }
     render() {
         return <header>
+            <TopLineBanner></TopLineBanner>
             <div className='header_bg'>
                 <div className='search_bar_wrap'>
                     <div className='weather_box'>
@@ -264,6 +271,7 @@ class Header extends React.Component {
             </div>
             <nav>
                 <div className='menu_wrap'>
+
                     <select
                         defaultValue="default"
                         name=''
@@ -281,6 +289,11 @@ class Header extends React.Component {
                         <li><a href='#!'>중고마켓</a></li>
                         <li><a href='#!'>가격비교</a></li>
                     </ul>
+
+                    <span className='login'>
+                        {this.state.isAuthorized ? (<Link to="/logout">{this.state.mb_id}로그아웃</Link>) : (<Link to="/login">로그인</Link>)}
+
+                    </span>
                 </div>
             </nav>
         </header>

@@ -16,7 +16,7 @@ class Footer extends React.Component {
                 <div className='footer_top'>
                     <p>고객센터</p>
                     <p className='call'>1661-1234</p>
-                    <p className='time'>평일 10:00 ~ 17:00 (점심시간 12:00 ~ 13:30) &ast;주말 &amp; 공휴일 제외</p>
+                    <p className='time'>평일 10:00 ~ 17:00 (점심시간 12:00 ~ 13:30) 주말 &amp; 공휴일 제외</p>
                 </div>
                 <div className='footer_middle'>
                     <ul>
