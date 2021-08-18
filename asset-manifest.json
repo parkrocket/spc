@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/spc/static/css/main.59660de0.chunk.css",
-    "main.js": "/spc/static/js/main.836eadf8.chunk.js",
-    "main.js.map": "/spc/static/js/main.836eadf8.chunk.js.map",
-    "runtime-main.js": "/spc/static/js/runtime-main.6258cb4a.js",
-    "runtime-main.js.map": "/spc/static/js/runtime-main.6258cb4a.js.map",
-    "static/js/2.c598e812.chunk.js": "/spc/static/js/2.c598e812.chunk.js",
-    "static/js/2.c598e812.chunk.js.map": "/spc/static/js/2.c598e812.chunk.js.map",
-    "static/js/3.fd1f6cbc.chunk.js": "/spc/static/js/3.fd1f6cbc.chunk.js",
-    "static/js/3.fd1f6cbc.chunk.js.map": "/spc/static/js/3.fd1f6cbc.chunk.js.map",
+    "main.css": "/spc/static/css/main.323a4a8d.chunk.css",
+    "main.js": "/spc/static/js/main.db55ff4c.chunk.js",
+    "main.js.map": "/spc/static/js/main.db55ff4c.chunk.js.map",
+    "runtime-main.js": "/spc/static/js/runtime-main.87c46059.js",
+    "runtime-main.js.map": "/spc/static/js/runtime-main.87c46059.js.map",
+    "static/js/2.0312745e.chunk.js": "/spc/static/js/2.0312745e.chunk.js",
+    "static/js/2.0312745e.chunk.js.map": "/spc/static/js/2.0312745e.chunk.js.map",
+    "static/js/3.4b40d513.chunk.js": "/spc/static/js/3.4b40d513.chunk.js",
+    "static/js/3.4b40d513.chunk.js.map": "/spc/static/js/3.4b40d513.chunk.js.map",
     "index.html": "/spc/index.html",
-    "static/css/main.59660de0.chunk.css.map": "/spc/static/css/main.59660de0.chunk.css.map",
-    "static/js/2.c598e812.chunk.js.LICENSE.txt": "/spc/static/js/2.c598e812.chunk.js.LICENSE.txt",
+    "static/css/main.323a4a8d.chunk.css.map": "/spc/static/css/main.323a4a8d.chunk.css.map",
+    "static/js/2.0312745e.chunk.js.LICENSE.txt": "/spc/static/js/2.0312745e.chunk.js.LICENSE.txt",
     "static/media/best_talk_img01.4d316a05.jpg": "/spc/static/media/best_talk_img01.4d316a05.jpg",
     "static/media/club_img01_01.cf69eca0.jpg": "/spc/static/media/club_img01_01.cf69eca0.jpg",
     "static/media/event01.51da9cfd.jpg": "/spc/static/media/event01.51da9cfd.jpg",
@@ -21,9 +21,9 @@
     "static/media/ranking_item01_01.aa93be5e.jpg": "/spc/static/media/ranking_item01_01.aa93be5e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6258cb4a.js",
-    "static/js/2.c598e812.chunk.js",
-    "static/css/main.59660de0.chunk.css",
-    "static/js/main.836eadf8.chunk.js"
+    "static/js/runtime-main.87c46059.js",
+    "static/js/2.0312745e.chunk.js",
+    "static/css/main.323a4a8d.chunk.css",
+    "static/js/main.db55ff4c.chunk.js"
   ]
 }
