@@ -10,16 +10,22 @@ class ClubView extends React.Component {
     constructor(props) {
         super(props);
         let isAuthorized = sessionStorage.getItem("isAuthorized");
-
         this.state = {
             isAuthorized: isAuthorized,
             menu: "club",
+            submenu: "home",
             wrid: this.props.match.params.no
         }
     }
+
+    componentDidMount() {
+        console.log(this.props);
+    }
+
     render() {
+
         return <div id="wrap">
-            <Header menu={this.state.menu} wrid={this.state.wrid}></Header>
+            <Header menu={this.state.menu} wrid={this.state.wrid} submenu={this.state.submenu}></Header>
             <section id="contents">
                 <div className='main_side_wrap'>
                     <div className='main'>

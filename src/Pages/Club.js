@@ -38,7 +38,7 @@ class Club extends React.Component {
 
                             <ul className="rec_meet_main">
                                 <li className="rec_meget_list">
-                                    <Link to="/club/123" className="rec_meet_list_all">
+                                    <Link to="/club/home/123" className="rec_meet_list_all">
                                         <div className="meet_img"><img alt='' src={rec_meet_1} /></div>
                                         <div className="content_wrap">
                                             <div className="content_title">수원시 / 119명 / 너와 함께 걷고 싶다★</div>
@@ -47,7 +47,7 @@ class Club extends React.Component {
                                 </li>
 
                                 <li className="rec_meget_list">
-                                    <Link to="/club/123" className="rec_meet_list_all">
+                                    <Link to="/club/home/123" className="rec_meet_list_all">
                                         <div className="meet_img"><img alt='' src={rec_meet_1} /></div>
                                         <div className="content_wrap">
                                             <div className="content_title">수원시 / 119명 / 너와 함께 걷고 싶다★</div>
@@ -56,7 +56,7 @@ class Club extends React.Component {
                                 </li>
 
                                 <li className="rec_meget_list">
-                                    <Link to="/club/123" className="rec_meet_list_all">
+                                    <Link to="/club/home/123" className="rec_meet_list_all">
                                         <div className="meet_img"><img alt='' src={rec_meet_1} /></div>
                                         <div className="content_wrap">
                                             <div className="content_title">수원시 / 119명 / 너와 함께 걷고 싶다★</div>
@@ -65,7 +65,7 @@ class Club extends React.Component {
                                 </li>
 
                                 <li className="rec_meget_list">
-                                    <Link to="/club/123" className="rec_meet_list_all">
+                                    <Link to="/club/home/123" className="rec_meet_list_all">
                                         <div className="meet_img"><img alt='' src={rec_meet_1} /></div>
                                         <div className="content_wrap">
                                             <div className="content_title">수원시 / 119명 / 너와 함께 걷고 싶다★</div>

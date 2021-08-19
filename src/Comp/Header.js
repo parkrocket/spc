@@ -5,6 +5,7 @@ import search_icon from '../img/search_icon.png';
 import test_img from '../img/test_img.jpg';
 import TopLineBanner from './TopLineBanner';
 import { Link } from 'react-router-dom';
+import HeaderMenu from './HeaderMenu';
 
 
 class Header extends React.Component {
@@ -16,12 +17,14 @@ class Header extends React.Component {
             isAuthorized: isAuthorized,
             mb_id: mb_id,
             menu: this.props.menu,
+            submenu: this.props.submenu,
             wrid: this.props.wrid
         }
 
     };
 
     componentDidMount() {
+        console.log(this.state)
 
         const API_KEY = "63be2048de414bd803af8187d5fe47f7";
 
@@ -158,25 +161,18 @@ class Header extends React.Component {
             }
         });
 
-        let menu = this.state.menu;
-        if (menu === undefined) {
-            menu = "home";
-        }
-        $("#menu li").removeClass("active");
-        $("#menu_" + menu).addClass("active");
 
-        let wrid = this.state.wrid;
 
-        if (wrid !== undefined) {
-            $(".header_bg").hide();
-        }
+
 
 
     }
+
+
+
     render() {
         return <header>
             <TopLineBanner></TopLineBanner>
-
             <div className='header_bg'>
                 <div className='search_bar_wrap'>
                     <div className='weather_box'>
@@ -300,13 +296,8 @@ class Header extends React.Component {
                         <option value='2'>2</option>
                         <option value='3'>3</option>
                     </select>
-                    <ul className='menu'>
-                        <li id="menu_home"><Link to="/">홈</Link></li>
-                        <li id="menu_board"><Link to="/board">커뮤니티</Link></li>
-                        <li id="menu_club"><Link to="/club">동호회</Link></li>
-                        <li id="menu_market"><Link to="/market">중고마켓</Link></li>
-                        <li id="menu_shop"><Link to="/shop">가격비교</Link></li>
-                    </ul>
+
+                    <HeaderMenu menu={this.state.menu} wrid={this.state.wrid} submenu={this.state.submenu}></HeaderMenu>
 
                     <span className='login'>
                         {this.state.isAuthorized ? (<Link to="/logout">{this.state.mb_id}로그아웃</Link>) : (<Link to="/login">로그인</Link>)}
